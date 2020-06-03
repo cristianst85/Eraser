@@ -309,7 +309,7 @@ namespace Eraser
 
 			//If the user requested us to remove completed one-time tasks, do so.
 			if (EraserSettings.Get().ClearCompletedTasks &&
-				(task.Schedule == Schedule.RunNow) && highestLevel < LogLevel.Warning)
+				/*(task.Schedule == Schedule.RunNow) && */ highestLevel < LogLevel.Warning)
 			{
 				Program.eraserClient.Tasks.Remove(task);
 			}
