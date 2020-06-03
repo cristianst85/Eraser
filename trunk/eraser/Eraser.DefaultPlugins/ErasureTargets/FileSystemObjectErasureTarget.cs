@@ -2,7 +2,7 @@
  * $Id$
  * Copyright 2008-2019 The Eraser Project
  * Original Author: Joel Low <lowjoel@users.sourceforge.net>
- * Modified By:
+ * Modified By: $Author$
  * 
  * This file is part of Eraser.
  * 
@@ -302,7 +302,10 @@ namespace Eraser.DefaultPlugins
 
 						progress.Tag = new int[] { currentPass, method.Passes };
 						progress.Total = totalData;
-						progress.Completed += lastWritten;
+                        if (method.Guid == typeof(FirstLast16KB).GUID)
+                            progress.Completed = lastWritten;
+                        else
+                            progress.Completed += lastWritten;
 					};
 
 				TryEraseStream(fsManager, method, info, callback);
