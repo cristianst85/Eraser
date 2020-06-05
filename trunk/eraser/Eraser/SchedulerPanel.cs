@@ -1,6 +1,6 @@
 /* 
  * $Id$
- * Copyright 2008-2019 The Eraser Project
+ * Copyright 2008-2020 The Eraser Project
  * Original Author: Joel Low <lowjoel@users.sourceforge.net>
  * Modified By:
  * 
@@ -309,7 +309,7 @@ namespace Eraser
 
 			//If the user requested us to remove completed one-time tasks, do so.
 			if (EraserSettings.Get().ClearCompletedTasks &&
-				/*(task.Schedule == Schedule.RunNow) && */ highestLevel < LogLevel.Warning)
+				(task.Schedule == Schedule.RunNow) && highestLevel < LogLevel.Warning)
 			{
 				Program.eraserClient.Tasks.Remove(task);
 			}
