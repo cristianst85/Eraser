@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/>.
  */
 
-#include <stdafx.h>
+#include "stdafx.h"
 #include <vector>
 #include <windows.h>
 
