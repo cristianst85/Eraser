@@ -613,7 +613,6 @@ Eraser is Open-Source Software: see https://eraser.heidi.ie/ for details.
 
             //Then queue for erasure.
             using (eraserClient = CommandConnect())
-                task.Schedule = Schedule.RunNow;
                 eraserClient.Tasks.Add(task);
 		}
 		#endregion
