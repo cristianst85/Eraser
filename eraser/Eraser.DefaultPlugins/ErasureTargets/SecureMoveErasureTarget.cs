@@ -61,8 +61,8 @@ namespace Eraser.DefaultPlugins
 
 		protected override void ReadXml(XmlReader reader, bool advance)
 		{
-			base.ReadXml(reader, false);
-			Destination = reader.GetAttribute("destination");
+            Destination = reader.GetAttribute("destination");
+            base.ReadXml(reader, false);
 
 			if (advance)
 				reader.Read();
