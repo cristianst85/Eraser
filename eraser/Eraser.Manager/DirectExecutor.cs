@@ -288,11 +288,11 @@ namespace Eraser.Manager
 
 						//If the task is an execute on restart task or run immediately task, it is
 						//only run once and can now be restored to a manually run task
-						else if (task.Schedule == Schedule.RunOnRestart) /*||
-							task.Schedule == Schedule.RunNow)*/
-						{
-                            task.Schedule = Schedule.RunManually;
-						}
+						//else if (task.Schedule == Schedule.RunOnRestart ||
+						//	task.Schedule == Schedule.RunNow)
+						//{
+                        //    task.Schedule = Schedule.RunManually;
+						//}
 
 						//Remove the actively executing task from our instance variable
 						currentTask = null;

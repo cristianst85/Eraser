@@ -530,7 +530,7 @@ namespace Eraser
 			switch (action)
 			{
 				case DialogResult.OK:
-					task.Schedule = Schedule.RunManually;
+					task.Schedule = Schedule.RunNow;
 					goto case DialogResult.Yes;
 
 				case DialogResult.Yes:
