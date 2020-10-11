@@ -122,7 +122,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/,
 				for (++i; i < argc; ++i)
 				{
 					arg = argv[i];
-					if (arg.substr(0, 9) == L"--out")
+					if (arg.substr(0, 5) == L"--out")
 					{
 						if (++i != argc)
 							destItem = argv[i];
