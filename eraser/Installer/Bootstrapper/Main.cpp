@@ -177,10 +177,10 @@ int Install(bool quiet)
 	mainWin.EnableCancellation(false);
 
 	//Install the .NET framework
-	/*if (!HasNetFramework())
+	if (!HasNetFramework())
 		if (!InstallNetFramework(tempDir, quiet))
 			return 0;
-    */
+    
 	//Then install Eraser!
 	mainWin.Show(false);
 	InstallEraser(tempDir, quiet);

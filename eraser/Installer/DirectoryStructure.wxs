@@ -81,7 +81,7 @@
 
 					<!-- Documentation -->
 					<File Id="EraserDocumentation" Name="Eraser Documentation.pdf"
-						Source="..\Documentation\Documentation.pdf" />
+						Source="..\Documentation\Eraser Documentation.pdf" />
 					
 					<!-- Start Eraser when Windows starts -->
 					<RegistryValue Id="EraserStartup" Root="HKLM"
