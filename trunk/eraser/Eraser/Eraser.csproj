@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Eraser</RootNamespace>
     <AssemblyName>Eraser</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>..\Resources\Eraser.ico</ApplicationIcon>
     <IsWebBootstrapper>false</IsWebBootstrapper>

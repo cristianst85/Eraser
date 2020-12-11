@@ -532,7 +532,8 @@ namespace Eraser
 		{
 			WebRequest.DefaultCachePolicy = new HttpRequestCachePolicy(
 				HttpRequestCacheLevel.Revalidate);
-			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(
+            System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(
 				new Uri("https://eraser.heidi.ie/scripts/updates?action=listupdates&version=" +
 					BuildInfo.AssemblyFileVersion));
 
