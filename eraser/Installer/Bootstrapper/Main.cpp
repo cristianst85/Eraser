@@ -1,6 +1,6 @@
 /* 
  * $Id$
- * Copyright 2008-2020 The Eraser Project
+ * Copyright 2008-2021 The Eraser Project
  * Original Author: Joel Low <lowjoel@users.sourceforge.net>
  * Modified By:
  * 
@@ -177,9 +177,9 @@ int Install(bool quiet)
 	mainWin.EnableCancellation(false);
 
 	//Install the .NET framework
-	if (!HasNetFramework())
-		if (!InstallNetFramework(tempDir, quiet))
-			return 0;
+	//if (!HasNetFramework())
+	//	if (!InstallNetFramework(tempDir, quiet))
+	//		return 0;
     
 	//Then install Eraser!
 	mainWin.Show(false);

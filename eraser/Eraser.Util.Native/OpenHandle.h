@@ -1,6 +1,6 @@
 /* 
  * $Id$
- * Copyright 2008-2020 The Eraser Project
+ * Copyright 2008-2021 The Eraser Project
  * Original Author: Joel Low <lowjoel@users.sourceforge.net>
  * Modified By: 
  * 
@@ -27,7 +27,7 @@ using namespace System;
 using namespace System::Collections::Generic;
 using namespace System::Collections::ObjectModel;
 using namespace System::Diagnostics;
-using namespace Microsoft::Win32::SafeHandles;
+//using namespace Microsoft::Win32::SafeHandles;
 
 namespace Eraser {
 namespace Util {
