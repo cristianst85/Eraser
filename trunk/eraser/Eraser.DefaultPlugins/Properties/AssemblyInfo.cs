@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("The Eraser Project")]
 [assembly: AssemblyProduct("Eraser")]
-[assembly: AssemblyCopyright("Copyright © 2008-2020 The Eraser Project")]
+[assembly: AssemblyCopyright("Copyright © 2008-2021 The Eraser Project")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguageAttribute("en")]

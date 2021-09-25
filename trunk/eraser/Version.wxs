@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
  * $Id$
- * Copyright 2008-2020 The Eraser Project
+ * Copyright 2008-2021 The Eraser Project
  * Original Author: Joel Low <lowjoel@users.sourceforge.net>
  * Modified By: Garrett Trant <gtrant@users.sourceforge.net>
  *
@@ -21,6 +21,6 @@
 -->
 
 <Include>
-	<?define VERSIONSTRING=6.2.0.2991 ?><!-- Major.Minor.Release.Build -->
-	<?define INTERNALVERSIONSTRING=6.2.2991 ?><!-- Major.Minor.Build; used for MSI version comparisons -->
+	<?define VERSIONSTRING=6.2.0.2992 ?><!-- Major.Minor.Release.Build -->
+	<?define INTERNALVERSIONSTRING=6.2.2992 ?><!-- Major.Minor.Build; used for MSI version comparisons -->
 </Include>
